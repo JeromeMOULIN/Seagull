@@ -24,8 +24,10 @@ export default async function Home() {
     );
   } else {
     return (
-      <main className="flex min-h-screen flex-col bg-zinc-400 items-center justify-between">
-        {!session?.user ? <LoginButton /> : <LogoutButton />}
+      <main className="flex min-h-screen h-lvh flex-col bg-zinc-400 items-center justify-center">
+        <div className="flex flex-col h-96 w-96 rounded-2xl bg-zinc-300 drop-shadow-xl shadow-slate-600 justify-center items-center">
+          <LoginButton />
+        </div>
       </main>
     );
   }
