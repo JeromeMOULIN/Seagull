@@ -48,7 +48,7 @@ function Phone_nav() {
         </li>
         <li>
           <Nav_button
-            currentPage={"Search"}
+            currentPage={"RECHERCHE"}
             icon={
               <FontAwesomeIcon
                 className="h-5 w-5 text-white"
@@ -59,7 +59,7 @@ function Phone_nav() {
         </li>
         <li>
           <Nav_button
-            currentPage={"Profil"}
+            currentPage={"PROFILE"}
             icon={
               <FontAwesomeIcon className="h-5 w-5 text-white" icon={faUser} />
             }

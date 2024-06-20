@@ -1,6 +1,7 @@
 "use client";
 
 import { useDispatch, useSelector } from "react-redux";
+import { changeName } from "@/redux/slice/headerSlice";
 
 function Nav_button(props: any) {
   const dispatch = useDispatch();
@@ -9,8 +10,9 @@ function Nav_button(props: any) {
 
   const setPages = () => {
     console.log(title);
+    dispatch(changeName(props.currentPage));
 
-    /* dispatch(changeName(props.currentPage)); */
+    console.log(title);
   };
 
   const page = () => {

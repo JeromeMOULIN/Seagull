@@ -1,10 +1,8 @@
 import { PayloadAction, createSlice } from "@reduxjs/toolkit";
 
-const initialState: any = [
-  {
-    text: "HOME",
-  },
-];
+const initialState: any = {
+  text: "HOME",
+};
 
 const currentPageSlice = createSlice({
   name: "currentPage",
