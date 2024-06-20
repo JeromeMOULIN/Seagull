@@ -27,7 +27,8 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "prisma/script.js",
-    "prisma/prisma.js"
+    "prisma/prisma.js",
+    "app/redux/store.js"
   ],
   "exclude": ["node_modules"]
 }

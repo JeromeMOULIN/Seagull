@@ -3,6 +3,9 @@ import React from "react";
 import { LogoutButton } from "../AuthButtons";
 
 function HeaderModal() {
+  const switchModal = () => {
+    document.getElementById("h-modal")?.classList.toggle("not-visible");
+  };
   return (
     <div
       id="h-modal"
@@ -11,7 +14,10 @@ function HeaderModal() {
       <h3>Etes vous sûr ?</h3>
       <div className="flex flex-row gap-5">
         <LogoutButton />
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+        <button
+          onClick={switchModal}
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+        >
           Non
         </button>
       </div>

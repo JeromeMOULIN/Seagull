@@ -16,6 +16,7 @@ function Phone_nav() {
       <ul className="flex flex-row justify-around items-center w-full">
         <li>
           <Nav_button
+            currentPage={"HOME"}
             icon={
               <FontAwesomeIcon
                 className="h-5 w-5 text-white"
@@ -26,6 +27,7 @@ function Phone_nav() {
         </li>
         <li>
           <Nav_button
+            currentPage={"CHAT"}
             icon={
               <FontAwesomeIcon
                 className="h-5 w-5 text-white"
@@ -46,6 +48,7 @@ function Phone_nav() {
         </li>
         <li>
           <Nav_button
+            currentPage={"Search"}
             icon={
               <FontAwesomeIcon
                 className="h-5 w-5 text-white"
@@ -56,6 +59,7 @@ function Phone_nav() {
         </li>
         <li>
           <Nav_button
+            currentPage={"Profil"}
             icon={
               <FontAwesomeIcon className="h-5 w-5 text-white" icon={faUser} />
             }
