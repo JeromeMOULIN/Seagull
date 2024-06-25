@@ -25,7 +25,11 @@ function _Content() {
     }
   };
 
-  return <div className="flex flex-col size-full items-center">{Switch()}</div>;
+  return (
+    <div className="flex flex-col size-full items-center overflow-scroll">
+      {Switch()}
+    </div>
+  );
 }
 
 export default _Content;

@@ -14,6 +14,12 @@ export default function HomeContent() {
         <Post />
         <Post />
         <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
       </div>
     </>
   );
