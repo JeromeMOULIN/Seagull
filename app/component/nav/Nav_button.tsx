@@ -15,14 +15,10 @@ function Nav_button(props: any) {
     console.log(title);
   };
 
-  const page = () => {
-    console.log(props.currentPage);
-  };
-
   return (
     <button
       onClick={setPages}
-      className="size-8 bg-black shadow-md shadow-zinc-700 rounded-full  flex justify-center items-center "
+      className="size-8 bg-black shadow-md shadow-zinc-700 rounded-full  flex justify-center items-center group "
     >
       {/* Use font awesomes component icons u declared as a props */}
       {props.icon}
