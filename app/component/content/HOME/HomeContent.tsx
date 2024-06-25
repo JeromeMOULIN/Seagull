@@ -1,5 +1,5 @@
 import React from "react";
-import Post from "../poste/Post";
+import Post from "../../poste/Post";
 
 export default function HomeContent() {
   return (
