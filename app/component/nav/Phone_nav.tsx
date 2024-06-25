@@ -40,7 +40,7 @@ function Phone_nav() {
           <Add_button
             icon={
               <FontAwesomeIcon
-                className="size-8 stroke-black text-zinc-500 group-hover:text-gray-800"
+                className="size-8 stroke-black text-zinc-500 group-hover:text-gray-800/75"
                 icon={faPlus}
               />
             }

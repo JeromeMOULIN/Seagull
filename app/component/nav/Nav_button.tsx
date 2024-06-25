@@ -17,8 +17,9 @@ function Nav_button(props: any) {
 
   return (
     <button
+      id={props.currentPage}
       onClick={setPages}
-      className="size-8 bg-black shadow-md shadow-zinc-700 rounded-full  flex justify-center items-center group "
+      className="size-8 bg-black shadow-md shadow-zinc-700 rounded-full  flex justify-center items-center group active:translate-y-0.5"
     >
       {/* Use font awesomes component icons u declared as a props */}
       {props.icon}
