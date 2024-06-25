@@ -22,7 +22,7 @@ function Nav_button(props: any) {
   return (
     <button
       onClick={setPages}
-      className="h-8 w-8 bg-black shadow-md shadow-zinc-700 rounded-full  flex justify-center items-center"
+      className="size-8 bg-black shadow-md shadow-zinc-700 rounded-full  flex justify-center items-center "
     >
       {/* Use font awesomes component icons u declared as a props */}
       {props.icon}

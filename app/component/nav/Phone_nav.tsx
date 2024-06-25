@@ -19,7 +19,7 @@ function Phone_nav() {
             currentPage={"HOME"}
             icon={
               <FontAwesomeIcon
-                className="h-5 w-5 text-white"
+                className="size-5 text-white"
                 icon={faHouseChimney}
               />
             }
@@ -29,10 +29,7 @@ function Phone_nav() {
           <Nav_button
             currentPage={"CHAT"}
             icon={
-              <FontAwesomeIcon
-                className="h-5 w-5 text-white"
-                icon={faComment}
-              />
+              <FontAwesomeIcon className="size-5 text-white" icon={faComment} />
             }
           />
         </li>
@@ -40,7 +37,7 @@ function Phone_nav() {
           <Add_button
             icon={
               <FontAwesomeIcon
-                className="h-8 w-8 stroke-black text-zinc-500"
+                className="size-8 stroke-black text-zinc-500"
                 icon={faPlus}
               />
             }
@@ -51,7 +48,7 @@ function Phone_nav() {
             currentPage={"RECHERCHE"}
             icon={
               <FontAwesomeIcon
-                className="h-5 w-5 text-white"
+                className="size-5 text-white"
                 icon={faMagnifyingGlass}
               />
             }
@@ -61,7 +58,7 @@ function Phone_nav() {
           <Nav_button
             currentPage={"PROFILE"}
             icon={
-              <FontAwesomeIcon className="h-5 w-5 text-white" icon={faUser} />
+              <FontAwesomeIcon className="size-5 text-white" icon={faUser} />
             }
           />
         </li>
