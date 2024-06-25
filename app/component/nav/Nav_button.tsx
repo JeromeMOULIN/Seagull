@@ -9,10 +9,7 @@ function Nav_button(props: any) {
   const title = useSelector((state: any) => state.currentPage);
 
   const setPages = () => {
-    console.log(title);
     dispatch(changeName(props.currentPage));
-
-    console.log(title);
   };
 
   return (

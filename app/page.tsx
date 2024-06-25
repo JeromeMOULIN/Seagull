@@ -1,8 +1,9 @@
 import { auth } from "@/src/lib/auth";
-import { LoginButton, LogoutButton } from "./component/AuthButtons";
+import { LoginButton } from "./component/AuthButtons";
 import Header from "./component/header/Header";
 import Phone_nav from "./component/nav/Phone_nav";
 import _Content from "./component/content/_Content";
+import AddPostModal from "./component/nav/Creation_ modal/AddPostModal";
 
 export default async function Home() {
   const session = await auth();
@@ -12,6 +13,7 @@ export default async function Home() {
       <main className="flex min-h-screen flex-col h-lvh bg-zinc-400 items-center">
         <Header />
         <_Content />
+        <AddPostModal />
         <Phone_nav />
       </main>
     );

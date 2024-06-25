@@ -25,11 +25,7 @@ function _Content() {
     }
   };
 
-  return (
-    <div className="flex flex-col w-full h-full items-center py-5">
-      {Switch()}
-    </div>
-  );
+  return <div className="flex flex-col size-full items-center">{Switch()}</div>;
 }
 
 export default _Content;
